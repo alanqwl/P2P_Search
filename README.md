@@ -54,7 +54,7 @@ These are the goals achieved in this project.
         1. Assign a low TTL value (e.g., 1) to query packets.
         2. Send a query from one server.
         3. Check that the query packet is not forwarded beyond immediate neighbors as the TTL expires.
-    - Expected ****Outcome: Query packets do not extend beyond their TTL scope, preventing excess network traffic and loop risks.
+    - Expected Outcome: Query packets do not extend beyond their TTL scope, preventing excess network traffic and loop risks.
 
 ## Testing Environment Setup
 
