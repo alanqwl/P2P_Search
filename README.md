@@ -21,7 +21,7 @@ a. Check if the query packet has a duplicated ID based on its ID.
 b. Search the target directory for the queried file.
 c. If the queried file is found, sends a response back to the server that initialized the query.
 d. If file is not found and TTL (Time To Live) is greater than 0, flood the query to all neighbors except the sender.
-e. The search fails silently if there are no search results from any reachable server, and the host may receive multiple responses if the query is flooded to multiple server. (you may consider sharing the query ID structure between threads for this purpose).
+e. The search fails silently if there are no search results from any reachable server, and the host may receive multiple responses if the query is flooded to multiple server. 
 5. If the packet is a RESPONSE type, print out the search response.
 
 ## Objectives
